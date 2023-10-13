@@ -1,0 +1,17 @@
+1
+L'induzione completa, chiamata anche "principio di induzione matematica," è un importante principio della matematica utilizzato per dimostrare affermazioni matematiche che coinvolgono numeri interi positivi o, in alcuni casi, tutti i numeri naturali.
+
+Il principio dell'induzione completa funziona seguendo questi passaggi:
+
+Caso Base: Si dimostra che l'affermazione è vera per un valore di base. Di solito, questo è il valore più piccolo per il quale l'affermazione dovrebbe essere valida.
+
+Ipotesi Induttiva: Si assume che l'affermazione sia vera per un valore generico k, noto come l'ipotesi induttiva.
+
+Passo Induttivo: Si dimostra che l'affermazione è vera anche per il valore successivo, k+1, basandosi sull'ipotesi induttiva.
+
+Il principio afferma che se un'affermazione è vera per il caso base e se l'affermazione che vale per k implica che vale anche per k+1 (il passo induttivo), allora l'affermazione è vera per tutti i numeri interi positivi (o tutti i numeri naturali), cioè è vera per un insieme infinito di valori.
+N{1,2,3......42}
+Z {....,-3,-2,-1,0,1,2,3......42}
+Z+{1,2,3......42} senza lo 0
+
+possiamo dimostrare l'uguaglianza \frac{n(n+1)}{2} = 1 + 2 + 3 + \ldots + n
