@@ -15,3 +15,72 @@ Z {....,-3,-2,-1,0,1,2,3......42}
 Z+{1,2,3......42} senza lo 0
 
 possiamo dimostrare l'uguaglianza \frac{n(n+1)}{2} = 1 + 2 + 3 + \ldots + n
+2
+n(n+1)
+​
+ =1+2+3+…+n usando il principio di induzione completa. La dimostrazione si svolge in tre fasi: il caso base, l'ipotesi induttiva e il passo induttivo.
+
+Caso Base (n = 1):
+
+Verifichiamo prima il caso base quando n = 1n=1:
+
+\frac{1(1+1)}{2} = \frac{1 \cdot 2}{2} = 1
+2
+1(1+1)
+​
+ = 
+2
+1⋅2
+​
+ =1
+D'altra parte, la somma di tutti i numeri da 1 a 1 è chiaramente 1.
+
+Quindi, per n = 1n=1, l'uguaglianza è vera.
+
+Ipotesi Induttiva:
+
+Supponiamo ora che l'uguaglianza sia vera per un certo valore kk. In altre parole, supponiamo che:
+
+\frac{k(k+1)}{2} = 1 + 2 + 3 + \ldots + k
+2
+k(k+1)
+​
+ =1+2+3+…+k
+Passo Induttivo:
+
+Dobbiamo dimostrare che l'uguaglianza è vera anche per k+1k+1. Cioè, dobbiamo dimostrare che:
+
+\frac{(k+1)((k+1)+1)}{2} = 1 + 2 + 3 + \ldots + (k+1)
+2
+(k+1)((k+1)+1)
+​
+ =1+2+3+…+(k+1)
+Usiamo l'ipotesi induttiva per semplificare il lato sinistro dell'equazione:
+
+\begin{align*} \frac{(k+1)((k+1)+1)}{2} &= \frac{(k+1)(k+2)}{2} \\ &= \frac{k(k+1)}{2} + \frac{2(k+1)}{2} \\ &= 1 + 2 + 3 + \ldots + k + (k+1) \end{align*}
+2
+(k+1)((k+1)+1)
+​
+ 
+​
+  
+= 
+2
+(k+1)(k+2)
+​
+ 
+= 
+2
+k(k+1)
+​
+ + 
+2
+2(k+1)
+​
+ 
+=1+2+3+…+k+(k+1)
+​
+ 
+Questa è esattamente l'uguaglianza che volevamo dimostrare per k+1.
+
+Quindi, abbiamo dimostrato che se l'uguaglianza è vera per kk, allora è vera anche per k+1k+1, e poiché è vera per n = 1n=1 (caso base), per il principio di induzione matematica, è vera per tutti i valori positivi di nn.
