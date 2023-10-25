@@ -9,8 +9,6 @@ d) E = {2
 
 '''
 
-'''
-
 L'equazione x^2 - 3x + 2 = 0 può essere fattorizzata in (x - 1)(x - 2) = 0. Quindi, le soluzioni di questa equazione sono x = 1 e x = 2.
 
 L'equazione x^3 - 8 = 0 è l'equazione cubica che può essere fattorizzata in (x - 2)(x^2 + 2x + 4) = 0. Le soluzioni di questa equazione sono x = 2 e le soluzioni complesse che non ci interessano in questo caso.
@@ -23,6 +21,7 @@ Le soluzioni comuni a entrambe le equazioni sono x = 2. Quindi:
 
 E = {2}
 '''
+
 # Importa il modulo sympy per la risoluzione delle equazioni
 import sympy as sp
 
