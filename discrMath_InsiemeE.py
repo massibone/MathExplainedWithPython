@@ -39,5 +39,5 @@ solutions_eq2 = sp.solve(eq2, x)
 # Calcola l'insieme E come l'intersezione delle soluzioni delle due equazioni
 E = set(solutions_eq1).intersection(set(solutions_eq2))
 
-# Stampa l'insieme E
+# Stampa l'insieme 
 print("Insieme E:", E)
