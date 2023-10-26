@@ -7,3 +7,12 @@ La dimensione dello spazio delle colonne di una matrice è il numero di colonne 
 La nozione di "linearmente indipendenti" è un concetto fondamentale nell'ambito della linearità e dell'algebra lineare. Un insieme di vettori (o colonne di una matrice) si dice linearmente indipendente quando nessun vettore può essere espresso come combinazione lineare degli altri. In altre parole, se hai un insieme di vettori e nessuno di essi può essere ottenuto combinando gli altri con coefficienti diversi da zero, allora quegli elementi sono linearmente indipendenti.
 
 
+
+Ecco un esempio per chiarire questo concetto. Supponiamo di avere due vettori:
+v1=[1                      v2=[ 2
+        2 ]                            4]
+Questi due vettori sono linearmente dipendenti perché il secondo vettore è semplicemente il primo moltiplicato per 2. Puoi ottenere il secondo vettore come una combinazione lineare del primo, cioè v2=2*v1.
+D'altra parte, se avessimo due vettori diversi:
+w1=[1                      v2=[ 3
+        2 ]                            4]
+Questi due vettori sono linearmente indipendenti perché non è possibile ottenere uno come combinazione lineare dell'altro senza utilizzare coefficienti uguali a zero. In altre parole, non esiste una coppia di numeri diversi da zero .
