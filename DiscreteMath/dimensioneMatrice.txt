@@ -1,1 +1,9 @@
+La dimensione dello spazio delle colonne non corrisponde alle righe, ma alle colonne stesse di una matrice.
+
+La dimensione dello spazio delle colonne di una matrice è il numero di colonne linearmente indipendenti nella matrice stessa. Le righe non sono coinvolte in questa definizione.
+
+"dim(Col(A)) = 3" significa che ci sono 3 colonne linearmente indipendenti nella matrice A, non righe. Quindi, se ci sono 3 colonne nella matrice A che sono linearmente indipendenti, la dimensione dello spazio delle colonne di A 
+-linearmenteIndipendenti.txt
+La nozione di "linearmente indipendenti" è un concetto fondamentale nell'ambito della linearità e dell'algebra lineare. Un insieme di vettori (o colonne di una matrice) si dice linearmente indipendente quando nessun vettore può essere espresso come combinazione lineare degli altri. In altre parole, se hai un insieme di vettori e nessuno di essi può essere ottenuto combinando gli altri con coefficienti diversi da zero, allora quegli elementi sono linearmente indipendenti.
+
 
