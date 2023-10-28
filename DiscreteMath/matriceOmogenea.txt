@@ -1,1 +1,2 @@
 
+Per rendere una matrice omogenea, devi aggiungere una colonna di zeri in modo che la matrice diventi quadrata. Una matrice quadrata è una matrice con lo stesso numero di righe e colonne. Nella tua matrice originale, hai 3 righe e 4 colonne. Quindi, dovrai aggiungere una colonna di zeri per renderla omogenea
