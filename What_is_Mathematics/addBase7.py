@@ -1,3 +1,4 @@
+# Programma 
 def rappresenta_in_base7(numero):
     rappresentazione = ''
     if numero == 0:
@@ -24,3 +25,19 @@ for riga in matrice_somme_base7:
 print("Matrice delle moltiplicazione dei primi 6 numeri in base 7:")
 for riga in matrice_moltiplicazione_base7:
     print(' '.join(riga))
+'''
+Matrice delle somme dei primi 6 numeri in base 7:
+0 1  2  3  4  5   
+1 2  3  4  5  6   
+2 3  4  5  6  10  
+3 4  5  6  10  11 
+4 5  6  10  11  12
+5 6  10  11  12  13
+Matrice delle moltiplicazione dei primi 6 numeri in base 7:
+0 0  2  3  4  5
+0 1  3  4  5  6
+0 2  4  5  6  10
+0 3  5  6  10  11
+0 4  6  10  11  12
+0 5  10  11  12  13
+'''
