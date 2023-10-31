@@ -35,3 +35,4 @@ num2_base7 = "24"
 product_base7 = multiply_in_base7(num1_base7, num2_base7)
 
 print(f"Il prodotto di {num1_base7} e {num2_base7} nel sistema settenario è: {product_base7}")
+#Il prodotto di 265 e 24 nel sistema settenario è: 10416
