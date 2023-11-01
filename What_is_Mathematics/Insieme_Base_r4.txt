@@ -1,1 +1,31 @@
+Per determinare se l'insieme {v1, v2, e1, e2} è una base per lo spazio vettoriale R^4, dobbiamo verificare due condizioni fondamentali:
 
+Gli elementi dell'insieme devono essere linearmente indipendenti.
+L'insieme deve generare tutto R^4.
+Innanzitutto, vediamo gli elementi dell'insieme:
+
+v1 = (1, 2, 0, 2)
+v2 = (2, 1, 1, 0)
+e1 = (1, 0, 0, 0)
+e2 = (0, 1, 0, 0)
+
+Per verificare la prima condizione (linearità indipendenza), dobbiamo vedere se esistono coefficienti a1, a2, a3 e a4 tali che:
+
+a1 * v1 + a2 * v2 + a3 * e1 + a4 * e2 = (0, 0, 0, 0)
+
+Se l'unico modo per ottenere il vettore nullo (0, 0, 0, 0) è impostando tutti i coefficienti a1, a2, a3 e a4 a zero, allora gli elementi dell'insieme sono linearmente indipendenti.
+
+Ora risolviamo questa equazione:
+
+a1 * (1, 2, 0, 2) + a2 * (2, 1, 1, 0) + a3 * (1, 0, 0, 0) + a4 * (0, 1, 0, 0) = (0, 0, 0, 0)
+
+Ottieniamo un sistema di equazioni lineari:
+
+a1 + 2a2 + a3 = 0
+2a1 + a2 + a4 = 0
+a2 = 0
+2a2 = 0
+
+Da queste equazioni, vediamo che a2 = 0, a3 = 0 e a4 = 0. Quindi, il sistema è linearmente indipendente.
+
+Per quanto riguarda la seconda condizione (generare tutto R^4), è sufficiente verificare se è possibile ottenere qualsiasi vettore in R^4 attraverso una combinazione lineare degli elementi dell'insieme. Dal momento che abbiamo appena dimostrato che gli elementi dell'insieme sono linearmente indipendenti, possiamo concludere che l'insieme {v1, v2, e1, e2} è una base di R^4.
