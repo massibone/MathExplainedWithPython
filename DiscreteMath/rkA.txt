@@ -26,4 +26,7 @@ dove x è un vettore di 2 dimensioni e b è un vettore di 2 dimensioni. Questo s
 
 Questa è una possibilità meno probabile, ma è possibile se le colonne di A sono molto simili tra loro.
 
+Se rk(A) = 1, allora le colonne di A sono linearmente dipendenti in gruppi di 1. Questo significa che esiste un sistema di equazioni lineari del tipo:
 
+A*x = b
+dove x è un vettore di 1 dimensione e b è un vettore di 1 dimensione. Questo sistema di equazioni ha una soluzione unica per ogni vettore b.
