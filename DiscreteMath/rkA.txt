@@ -1,0 +1,1 @@
+La matrice A ha 4 colonne e 3 righe. Se rk(A) = 4, allora le colonne di A sono linearmente indipendenti, il che significa che possono essere usate per rappresentare qualsiasi punto nello spazio a 4 dimensioni. Tuttavia, A ha solo 3 righe, il che significa che non ci sono abbastanza equazioni per determinare i valori di 4 variabili. Pertanto, rk(A) non può essere 4.
