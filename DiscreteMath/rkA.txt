@@ -9,3 +9,7 @@ Supponiamo che A sia una matrice 4x3. Se rk(A) = 4, allora le colonne di A sono 
 
 A*x = b
 
+dove x è un vettore di 4 dimensioni e b è un vettore di 4 dimensioni. Questo sistema di equazioni ha una soluzione unica per ogni vettore b.
+
+Tuttavia, A ha solo 3 righe, il che significa che non ci sono abbastanza equazioni per determinare i valori di 4 variabili. Pertanto, il sistema di equazioni non può avere una soluzione unica per ogni vettore b. Questo è un controdizio, quindi rk(A) non può essere 4.
+
