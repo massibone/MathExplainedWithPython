@@ -1,3 +1,11 @@
 La matrice A ha 4 colonne e 3 righe. Se rk(A) = 4, allora le colonne di A sono linearmente indipendenti, il che significa che possono essere usate per rappresentare qualsiasi punto nello spazio a 4 dimensioni. Tuttavia, A ha solo 3 righe, il che significa che non ci sono abbastanza equazioni per determinare i valori di 4 variabili. Pertanto, rk(A) non può essere 4.
+
 Se rk(A) = 3, allora le colonne di A sono linearmente dipendenti in gruppi di 3. Questo significa che le 3 colonne possono essere usate per rappresentare qualsiasi punto nello spazio a 3 dimensioni, ma non possono essere usate per rappresentare qualsiasi punto nello spazio a 4 dimensioni. Questa è la situazione più probabile, poiché A ha 4 colonne e 3 righe.
+
 Se rk(A) = 2, allora le colonne di A sono linearmente dipendenti in gruppi di 2. Questo significa che le 2 colonne possono essere usate per rappresentare qualsiasi punto nello spazio a 2 dimensioni, ma non possono essere usate per rappresentare qualsiasi punto nello spazio a 3 o 4 dimensioni. Questa è una possibilità meno probabile, ma è possibile se le colonne di A sono molto simili tra loro.
+
+Se rk(A) = 1, allora le colonne di A sono linearmente dipendenti in gruppi di 1. Questo significa che le 1 colonna può essere usata per rappresentare qualsiasi punto nello spazio a 1 dimensione, ma non può essere usata per rappresentare qualsiasi punto nello spazio a 2, 3 o 4 dimensioni. Questa è una possibilità molto improbabile, poiché A ha 4 colonne.
+Supponiamo che A sia una matrice 4x3. Se rk(A) = 4, allora le colonne di A sono linearmente indipendenti. Questo significa che esiste un sistema di equazioni lineari del tipo:
+
+A*x = b
+
