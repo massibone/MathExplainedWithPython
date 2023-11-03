@@ -23,7 +23,7 @@ def is_diagonal_matrix(x, y, z):
     
     return is_diagonal
 
-# Coordinata (x, y, z) che vogliamo verificare
+#  Coordinata (x, y, z) che vogliamo verificare
 x, y, z = 2, 0, 2
 
 # Verifica se la matrice è diagonale per (x, y, z) = (2, 0, 2)
