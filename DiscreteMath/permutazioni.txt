@@ -1,0 +1,9 @@
+La notazione che hai fornito descrive una permutazione \(f\) degli elementi \(1, 2, 3\). 
+In modo più esplicito, la permutazione mappa ciascun elemento della suo "dominio" a un corrispondente elemento nel "codominio". Nel tuo caso:
+
+- 1 --> 3: Questo significa che l'elemento \(1\) viene mappato al numero \(3\).
+- 2 --> 1: L'elemento \(2\) viene mappato al numero \(1\).
+- 3 --> 2: L'elemento \(3\) viene mappato al numero \(2\).
+
+Quindi, la permutazione \(f\) è una funzione che riorganizza gli elementi nel modo descritto sopra. 
+d esempio, applicando questa permutazione a una sequenza come \((1, 2, 3)\), otterresti \((3, 1, 2)\), poiché la permutazione manda \(1\) a \(3\), \(2\) a \(1\), e \(3\) a \(2\).
