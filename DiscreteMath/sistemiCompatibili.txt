@@ -5,3 +5,6 @@ x+2y=0
 Matrice B rappresenta il seguente sistema di equazioni:
 x+2y=0
 2x+4y=0
+Il primo sistema (rappresentato da A) è compatibile e ha infinite soluzioni, mentre il secondo sistema (rappresentato da B) è incompatibile e non ha soluzioni tranne nel caso in cui sia il sistema trivialmente consistente (cioè, tutte le variabili sono zero).
+-Matrice_a_Scalini.txt
+Per determinare se una matrice è nella forma a scalini, puoi seguire queste regole:
