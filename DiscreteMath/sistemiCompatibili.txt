@@ -8,3 +8,10 @@ x+2y=0
 Il primo sistema (rappresentato da A) è compatibile e ha infinite soluzioni, mentre il secondo sistema (rappresentato da B) è incompatibile e non ha soluzioni tranne nel caso in cui sia il sistema trivialmente consistente (cioè, tutte le variabili sono zero).
 -Matrice_a_Scalini.txt
 Per determinare se una matrice è nella forma a scalini, puoi seguire queste regole:
+Ogni riga non nulla deve iniziare con più zeri rispetto alla riga precedente.
+In ogni colonna contenente un elemento pivot (il primo elemento non nullo), tutti gli altri elementi devono essere uguali a zero.
+La matrice data:
+0 1 3 -1 0
+0 0 0 2 0
+0 0 0 0 1
+Seguendo le regole sopra elencate:
