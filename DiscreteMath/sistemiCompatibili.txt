@@ -15,3 +15,13 @@ La matrice data:
 0 0 0 2 0
 0 0 0 0 1
 Seguendo le regole sopra elencate:
+
+La prima riga inizia con zero zeri, quindi è ok.
+La seconda riga inizia con due zeri, quindi è ok.
+La terza riga inizia con zero zeri, quindi è ok.
+In ogni colonna contenente un elemento pivot:
+
+La colonna 2 (con il pivot 1) ha tutti zeri tranne il pivot, quindi è ok.
+La colonna 4 (con il pivot 2) ha tutti zeri tranne il pivot, quindi è ok.
+La colonna 5 (con il pivot 1) ha tutti zeri tranne il pivot, quindi è ok.
+Pertanto, la matrice è nella forma a scalini. Questo tipo di forma è utile in algebra lineare per semplificare il sistema di equazioni lineari associato alla matrice.
