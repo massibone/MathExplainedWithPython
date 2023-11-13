@@ -3,8 +3,8 @@ Per trovare geometricamente la radice cubica del rapporto q/p, puoi seguire ques
 
 Disegna una linea retta orizzontale e segna un punto A all'estremità sinistra.
 
-Utilizza un compasso per misurare una distanza proporzionale al rapporto q/p lungo la retta orizzontale da A e segna il punto B. La distanza da A a B dovrebbe essere proporzionale al rapporto q/p.
-
+Utilizza un compasso per misurare una distanza proporzionale al rapporto q/p lungo la retta orizzontale da A e segna il punto B. 
+La distanza da A a B dovrebbe essere proporzionale al rapporto q/p.
 Ora disegna una linea retta verticale dal punto B verso l'alto e segna il punto C all'estremità superiore di questa linea verticale.
 
 Connetti i punti A e C con una linea retta per formare un triangolo rettangolo ABC.
