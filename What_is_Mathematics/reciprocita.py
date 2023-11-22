@@ -1,3 +1,5 @@
+#legge reciprocità
+
 def legendre_symbol(a, p):
     """Calcola il simbolo di Legendre (a/p). Restituisce 1 se a è un residuo quadrato modulo p, -1 altrimenti."""
     if a % p == 0:
