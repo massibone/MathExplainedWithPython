@@ -1,5 +1,12 @@
 '''
-Il teorema di Liouville è un risultato fondamentale in meccanica statistica, che riguarda la conservazione della fase nello spazio delle fasi di un sistema dinamico hamiltoniano
+Il teorema di Liouville è un risultato fondamentale in meccanica statistica, 
+che riguarda la conservazione della fase nello spazio delle fasi di un sistema dinamico hamiltoniano.
+Un sistema dinamico hamiltoniano è un sistema dinamico in cui 
+l'evoluzione temporale del sistema è determinata da un'equazione differenziale di Hamilton.
+L'equazione differenziale di Hamilton per il pianeta è la seguente:
+
+dH/dt = 0
+Questa equazione significa che l'Hamiltoniana è una funzione costante del tempo. In altre parole, l'energia totale del sistema è conservata.
 '''
 import numpy as np
 import matplotlib.pyplot as plt
