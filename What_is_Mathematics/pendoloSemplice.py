@@ -26,3 +26,12 @@ sol = odeint(pendulum_system, [theta0, omega0], t, args=(g, L))
 theta = sol[:, 0]
 omega = sol[:, 1]
 
+# Plot dell'angolo rispetto al tempo
+plt.figure(figsize=(8, 6))
+plt.plot(t, np.degrees(theta), label='Angolo (gradi)')
+plt.xlabel('Tempo (s)')
+plt.ylabel('Angolo (gradi)')
+plt.legend()
+plt.grid()
+plt.show()
+
