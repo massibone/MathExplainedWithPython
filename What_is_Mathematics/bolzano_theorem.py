@@ -27,3 +27,11 @@ def bolzano_theorem(a, b, tol=1e-6, max_iter=1000):
 # Intervallo iniziale [a, b]
 a = 1
 b = 3
+# Applica il teorema di Bolzano
+zero_approximation = bolzano_theorem(a, b)
+
+if zero_approximation is not None:
+    print("Approssimazione dello zero:", zero_approximation)
+    print("Valore della funzione in questo punto:", f(zero_approximation))
+else:
+    print("Teorema di Bolzano non applicabile nell'intervallo.")
