@@ -1,0 +1,9 @@
+Nell'R-spazio vettoriale R^4, l'insieme H definito come:
+
+H = {(a, 0, b, c) : a, b, c ∈ R}
+
+ha effettivamente una dimensione di 3, e il fatto che uno dei componenti sia zero è rilevante.
+
+La dimensione di uno spazio vettoriale è determinata dal numero minimo di vettori linearmente indipendenti necessari per generare tutto lo spazio vettoriale. In questo caso, possiamo vedere che H è un sottoinsieme di R^4 in cui ci sono tre variabili libere (a, b e c), mentre il quarto componente è fissato a zero. Ciò significa che è possibile generare tutti i vettori in H utilizzando una combinazione lineare di soli tre componenti variabili (a, b, e c) senza la necessità del quarto componente (0).
+
+Pertanto, la dimensione di H è 3, poiché tre vettori linearmente indipendenti possono generare tutti i vettori in H. Il fatto che uno dei componenti sia zero non cambia la dimensione dello spazio, poiché il valore zero è considerato un valore valido in questo contesto.
