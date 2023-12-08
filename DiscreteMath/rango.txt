@@ -1,0 +1,15 @@
+Per verificare se le equazioni sono linearmente indipendenti e se il sistema è compatibile, è possibile eseguire le seguenti operazioni:
+
+1. Linearmente Indipendenti:
+   - Calcola il rango della matrice dei coefficienti (denominata A nel tuo caso) utilizzando le trasformazioni di Gauss-Jordan o 
+      qualsiasi altro metodo di riduzione gaussiana. Il rango della matrice è il numero di colonne linearmente indipendenti.
+   - Se il rango della matrice dei coefficienti è uguale al numero di variabili (nel tuo caso, 3), 
+      allora le equazioni sono linearmente indipendenti. Ciò significa che ciascuna delle equazioni fornisce informazioni aggiuntive e non può essere ottenuta come combinazione lineare delle altre.
+
+2. Compatibilità del Sistema:
+   - Se le equazioni sono linearmente indipendenti (come determinato sopra), il sistema è compatibile se e solo se il rango della matrice dei coefficienti (A) è 
+      uguale al rango della matrice completa dei coefficienti estesa con i termini noti (B).
+   - In altre parole, il sistema è compatibile se \(rk(A) = rk(B)\). Se i ranghi sono uguali, ciò indica che il sistema ha almeno una soluzione.
+   - Se il rango della matrice dei coefficienti è inferiore al rango della matrice completa estesa, il sistema è incompatibile, il che significa che non ha soluzioni.
+
+Calcola il rango della matrice A e confronta il rango di A con il rango di B per determinare la compatibilità del sistema.
