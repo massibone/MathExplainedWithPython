@@ -26,3 +26,4 @@ det_B = np.linalg.det(B)
 # Stampa del risultato
 print(det_B)  # Output: -15.0
 
+
