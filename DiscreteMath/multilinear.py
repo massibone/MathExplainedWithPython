@@ -1,7 +1,9 @@
 '''
-Per determinare se l'applicazione sia multilineare, dobbiamo verificare la linearità rispetto a ciascuna delle sue variabili. Un'applicazione è multilineare 
+Per determinare se l'applicazione sia multilineare, dobbiamo verificare la linearità rispetto 
+a ciascuna delle sue variabili. Un'applicazione è multilineare 
 se è lineare in ciascuna variabile quando l'altra è fissata.
 '''
+
 
 def is_multilinear(f):
     # Verifica la linearità rispetto alla prima variabile
