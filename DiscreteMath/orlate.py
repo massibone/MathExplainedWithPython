@@ -14,7 +14,7 @@ A = np.array([[3, 1, 2],
               [5, 0, 0],
               [1, 1, -1]])
 
-# Definisci il vettore
+# Definisci rispetto al vettore
 vettore = np.array([2, 3, 1, 3])
 
 # Calcola l'orlata di A rispetto al vettore
