@@ -1,6 +1,5 @@
 '''
-Una matrice permutabile è una matrice quadrata che può essere riorganizzata (permutata) 
-attraverso scambi di righe e colonne in modo tale da ottenere una matrice con una particolare struttura.
+Una matrice permutabile è una matrice quadrata che può essere riorganizzata (permutata) attraverso scambi di righe e colonne in modo tale da ottenere una matrice con una particolare struttura.
 '''
 
 import numpy as np
