@@ -38,4 +38,9 @@ def f(A, B):
     result = A[0, 0]*B[0, 0] + A[0, 1]*B[0, 1] + A[1, 0]*B[1, 0] + A[1, 1]*B[1, 1]
     return result
 
-
+# Verifica se l'applicazione è multilineare e simmetrica
+if is_multilinear_symmetric(f):
+    print("L'applicazione è multilineare e simmetrica.")
+else:
+    print("L'applicazione non è multilineare e simmetrica.")
+    
