@@ -1,10 +1,8 @@
 '''
-Due matrici A e B si dicono commutare 
-se il loro prodotto è uguale in entrambi gli ordini, 
-cioè se 
+Due matrici 
+A e B si dicono commutare se il loro prodotto è uguale in entrambi gli ordini, cioè se 
 
 AB=BA.
-
 '''
 
 import numpy as np
