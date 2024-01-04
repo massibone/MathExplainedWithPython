@@ -9,3 +9,8 @@ A = np.array([[-2, 3, 1, -5],
 
 # Seleziona le righe e le colonne desiderate per il minore fondamentale
 sottomatrice = A[[1, 2], 2:4]
+
+# Calcola il determinante della sottomatrice
+minore_fondamentale = np.linalg.det(sottomatrice)
+
+print(minore_fondamentale)
