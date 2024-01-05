@@ -4,8 +4,8 @@ Per determinare le possibili basi dello spazio vettoriale W generato da {v1, v2,
 
 Per verificare la linearità indipendenza, possiamo creare una matrice utilizzando i vettori dati come colonne e cercare il rango della matrice. Se il rango della matrice è uguale al numero di vettori (nel nostro caso, 4), allora i vettori sono linearmente indipendenti.
 Se i vettori sono linearmente indipendenti, allora qualsiasi sottoinsieme di 3 vettori sarà una base di W. Poiché ci sono 4 vettori, ci sono diverse combinazioni possibili per selezionare una base di 3 vettori da {v1, v2, v3, v4}. Ad esempio, una possibile base potrebbe essere {v1, v2, v3}, un'altra potrebbe essere {v1, v2, v4}, e così via.
-
 '''
+
 import numpy as np
 
 # Definisci i vettori
