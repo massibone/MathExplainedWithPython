@@ -1,0 +1,5 @@
+Se diciamo che "le matrici A e B rappresentano sistemi equivalenti", significa che risolvendo il sistema di equazioni definito da A otterrai le stesse soluzioni del sistema di equazioni definito da B. In altre parole, i due sistemi hanno lo stesso insieme di soluzioni.
+
+Questo concetto è importante nell'ambito dell'algebra lineare e della teoria dei sistemi lineari, poiché consente di semplificare il confronto tra sistemi diversi e dimostrare che hanno lo stesso insieme di soluzioni.
+
+
