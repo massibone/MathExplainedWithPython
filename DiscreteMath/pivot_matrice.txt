@@ -1,1 +1,5 @@
+I pivot di una matrice ridotta a forma normale di Gauss (RREF) sono gli elementi principali (non nulli) sulla diagonale principale della matrice dopo la riduzione. In termini pratici, i pivot sono gli elementi che vengono utilizzati per creare gli zeri al di sotto e al di sopra di essi durante la riduzione.
 
+Nel tuo caso, quando si dice che i pivot di A sono (1, 2, 1), significa che gli elementi sulla diagonale principale della matrice ridotta a forma normale di Gauss sono 1, 2, e 1. Questi sono gli elementi che vengono selezionati come pivot durante la riduzione. Gli zeri vengono creati sopra e sotto a questi pivot durante il processo di riduzione. 
+
+Per comprendere meglio, potresti eseguire il codice Python fornito nella risposta precedente e verificare la matrice ridotta a forma normale di Gauss per confermare quali sono i pivot nella tua matrice A.
