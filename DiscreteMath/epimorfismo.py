@@ -9,7 +9,6 @@ f(v) per almeno un vettore v∈R^3
 
 '''
 
-
 import numpy as np
 from scipy.optimize import fsolve
 
