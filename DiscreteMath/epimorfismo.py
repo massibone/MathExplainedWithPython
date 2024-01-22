@@ -21,3 +21,16 @@ def is_epimorphism(w):
         x, y, z = vars
         return [x + 2*y + z - w[0], y + z - w[1]]
       
+  # Soluzione del sistema
+    solution = fsolve(system, [0, 0, 0])
+
+    # Verifica se la soluzione è valida
+    return np.allclose(f(*solution), w)
+
+# Esempio di vettori w in R^2
+w1 = np.array([1, 2])
+w2 = np.array([3, 4])
+
+# Verifica se f è un epimorfismo per w1 e w2
+print(is_epimorphism(w1))
+print(is_epimorphism(w2))
