@@ -28,6 +28,7 @@ def is_epimorphism(w):
     return np.allclose(f(*solution), w)
 
 # Esempio di vettori w in R^2
+
 w1 = np.array([1, 2])
 w2 = np.array([3, 4])
 
