@@ -15,3 +15,12 @@ def nearest_neighbour(cities):
     tour.append(unvisited_cities.pop())
 
     return tour
+
+# Esempio di utilizzo
+cities_coordinates = np.array([
+    [0, 0],  # Città 0
+    [1, 2],  # Città 1
+    [3, 1],  # Città 2
+    [5, 2]   # Città 3
+])
+
