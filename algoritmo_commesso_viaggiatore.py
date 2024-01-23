@@ -24,3 +24,6 @@ cities_coordinates = np.array([
     [5, 2]   # Città 3
 ])
 
+tour = nearest_neighbour(cities_coordinates)
+print("Tour ottimizzato:", tour)
+
