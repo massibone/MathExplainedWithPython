@@ -38,3 +38,4 @@ plt.title('Derivata della funzione')
 
 plt.tight_layout()
 plt.show()
+
