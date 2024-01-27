@@ -7,7 +7,7 @@ l'integrale indefinito può essere utilizzato per calcolare l'area sotto le curv
 Per calcolare il surplus del consumatore, dobbiamo trovare l'area tra la curva di domanda e l'asse delle ordinate sopra il prezzo di equilibrio. 
 Per fare ciò, dobbiamo prima trovare il prezzo di equilibrio risolvendo l'equazione di domanda e offerta.
 '''
-rom sympy import symbols, integrate, solve
+from sympy import symbols, integrate, solve
 
 # Definiamo le variabili simboliche
 P = symbols('P')
