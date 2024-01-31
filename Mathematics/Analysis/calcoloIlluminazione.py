@@ -1,5 +1,6 @@
 '''
-si consideri un pilastroe eretto al centro di una pista da pattinaggio circolare e sormontato da una lampada ad altezza h. 
+si consideri un pilastroe eretto al centro di una pista da pattinaggio circolare e 
+sormontato da una lampada ad altezza h. 
 L'illuminazione T sul bordo de cerchio è: T= A sin alfa/(h^2+r^2) 
 '''
 
