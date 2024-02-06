@@ -1,5 +1,6 @@
 '''
-upponiamo  di determinare il volume delle pareti di ina scatola cubica chiusa 10x10x10 cm e con pareti di spessore 0,05 cm 
+Supponiamo  di determinare il volume delle pareti di ina scatola cubica chiusa 10x10x10 cm 
+e con pareti di spessore 0,05 cm 
 trovare l'incremento della funzione
 '''
 
