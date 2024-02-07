@@ -38,3 +38,19 @@ while row_index < rows and col_index < cols:
     # Scambia le righe in modo che il massimo elemento sia sulla diagonale
     A[[row_index, max_row]] = A[[max_row, row_index]
  
+
+    
+    # Riduci a uno l'elemento pivot
+    A[row_index, :] = A[row_index, :] / A[row_index, col_index]
+    
+    # Riduci a zero gli elementi nelle altre righe della colonna
+    for i in range(rows):
+        if i != row_index:
+            A[i, :] = A[i, :] - A[i, col_index] * A[row_index, :]
+    
+    # Passa alla prossima colonna e riga
+    row_index += 1
+    col_index += 1
+
+print("Matrice A completamente ridotta (forma di Gauss-Jordan):")
+print(A)
