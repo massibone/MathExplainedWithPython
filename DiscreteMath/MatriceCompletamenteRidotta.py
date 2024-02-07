@@ -21,3 +21,20 @@ Quindi, la matrice A è completamente ridotta secondo la forma di Gauss-Jordan, 
 
 Ricorda che la forma completamente ridotta rappresenta una forma finale di eliminazione gaussiana che semplifica ulteriormente la matrice a scopi di calcoli e analisi.
 '''
+import numpy as np
+
+# Definisci la matrice A
+A = np.array([[1, 0, 0, 0], [0, 0, -1, 0], [0, 2, 0, 2], [0, 0, 0, 0]])
+
+# Riduci A alla forma di Gauss-Jordan (forma completamente ridotta)
+rows, cols = A.shape
+row_index = 0
+col_index = 0
+
+while row_index < rows and col_index < cols:
+    # Trova la riga con il massimo elemento nella colonna corrente
+    max_row = np.argmax(np.abs(A[row_index:, col_index])) + row_index
+    
+    # Scambia le righe in modo che il massimo elemento sia sulla diagonale
+    A[[row_index, max_row]] = A[[max_row, row_index]
+ 
