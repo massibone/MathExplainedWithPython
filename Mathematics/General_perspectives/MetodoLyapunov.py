@@ -22,6 +22,7 @@ time_points_lyapunov = np.linspace(0, 20, 500)
 solution_lyapunov = odeint(lyapunov_system, initial_conditions_lyapunov, time_points_lyapunov, args=(epsilon,))
 
 # Plot the result of the Lyapunov method
+
 plt.figure(figsize=(8, 4))
 plt.plot(time_points_lyapunov, solution_lyapunov[:, 0], label='Lyapunov Method')
 plt.title('Lyapunov Method - System of Differential Equations')
