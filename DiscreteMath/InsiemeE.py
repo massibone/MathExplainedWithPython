@@ -1,7 +1,7 @@
 '''
 Sia E l’insieme numerico sull’asse reale R dato da
 E={x appartiene a R:x**2-3x+2=0} incluso {x appartiene a R: x**3 - 8 = 0} 
-Quali delle seguenti uguaglianze `e corretta?
+Quali delle seguenti uguaglianze è corretta?
 a) E = {1, 2}
 b) E = {2}
 c) E = ∅ (insieme vuoto)
