@@ -1,4 +1,4 @@
-  """
+"""
     Divide a line segment defined by two points (x1, y1) and (x2, y2) according to a given ratio.
 
     Parameters:
@@ -14,7 +14,7 @@
     Returns:
     tuple
         Coordinates of the point dividing the segment.
-    """
+"""
 def divide_segment(x1, y1, x2, y2, ratio):
   
     # Calculate the coordinates of the point dividing the segment
