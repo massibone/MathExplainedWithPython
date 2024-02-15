@@ -1,16 +1,14 @@
 def equation_of_line(x1, y1, x2, y2):
     """
     Find the equation of a line passing through two given points.
-
     Parameters:
     x1, y1 : float
         Coordinates of the first point.
     x2, y2 : float
         Coordinates of the second point.
 
-    Returns:
-    tuple
-        Coefficients (m, b) of the line equation y = mx + b.
+    Returns: tuple Coefficients (m, b) of the line equation 
+    y = mx + b.
     """
     # Calculate the slope (m)
     m = (y2 - y1) / (x2 - x1)
