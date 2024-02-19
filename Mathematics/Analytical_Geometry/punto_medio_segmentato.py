@@ -32,3 +32,4 @@ x_medio, y_medio = punto_medio_segmentato(x1, y1, x2, y2, rapporto)
 
 print(f"Coordinate del punto di divisione ({rapporto}): ({x_medio}, {y_medio})")
 
+
