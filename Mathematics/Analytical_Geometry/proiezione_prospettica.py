@@ -20,3 +20,9 @@ matrix = cv2.getPerspectiveTransform(points_A, points_B)
 
 # Applica la trasformazione prospettica all'immagine originale
 result = cv2.warpPerspective(img, matrix, (420, 594))
+
+# Visualizza l'immagine originale e l'immagine risultante
+cv2.imshow('Original Image', img)
+cv2.imshow('Perspective Transformation', result)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
