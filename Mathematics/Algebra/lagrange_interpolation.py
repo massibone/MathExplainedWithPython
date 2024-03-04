@@ -17,3 +17,7 @@ def lagrange_interpolation(points):
         polynomial += term
 
     return simplify(polynomial)
+# Esempio di utilizzo
+points = [(1, 2), (3, 4), (5, 6)]  # Punti attraverso cui interpolare il polinomio
+interpolating_polynomial = lagrange_interpolation(points)
+print("Interpolating Polynomial:", interpolating_polynomial)
