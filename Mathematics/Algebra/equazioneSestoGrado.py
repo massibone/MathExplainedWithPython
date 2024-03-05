@@ -11,3 +11,19 @@ o tecniche approssimate per trovare soluzioni approssimate o per risolvere casi 
 Alcuni algoritmi numerici possono essere utilizzati per approssimare le radici di equazioni polinomiali di alto grado, 
 ma non c'è una soluzione generale come nel caso delle equazioni di grado inferiore.
 '''
+
+from sympy import symbols, solve
+
+# Definiamo il simbolo x
+x = symbols('x')
+
+# Definiamo l'equazione di sesto grado
+equation = x**6 - 5*x**4 + 4*x**2 - 2
+
+# Risolviamo l'equazione
+solutions = solve(equation, x)
+
+# Stampiamo le soluzioni
+print("Solutions:")
+for sol in solutions:
+    print(sol.evalf())
