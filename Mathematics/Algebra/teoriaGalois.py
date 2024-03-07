@@ -8,3 +8,17 @@ La principale intuizione di Galois è stata quella di associare ogni estensione 
 La teoria di Galois ha avuto un'influenza profonda su vari campi della matematica, tra cui la teoria dei numeri, l'analisi complessa, la geometria algebrica e la teoria dei codici. È uno dei concetti fondamentali dell'algebra moderna e continua a essere una parte essenziale dello studio delle equazioni polinomiali e delle loro soluzioni.
 '''
 
+
+from sympy import symbols, Poly, GaloisGroup, QQ
+
+# Definiamo il simbolo x
+x = symbols('x')
+
+# Definiamo un polinomio di quarto grado
+polynomial = Poly(x**4 - 3*x**2 + 2*x - 1, x)
+
+# Otteniamo il gruppo di Galois del polinomio
+galois_group = GaloisGroup(polynomial, domain=QQ)
+
+# Stampiamo il gruppo di Galois
+print("Galois Group:", galois_group)
