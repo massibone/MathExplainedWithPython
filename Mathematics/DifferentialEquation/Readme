@@ -1,0 +1,4 @@
+Nelle applicazioni matematiche si possono incontrare problemi in cui l'incognita stessa è una funzione anziché un singolo numero. 
+Ad esempio, nel raffreddamento di un corpo, si cerca di determinare come la sua temperatura varia nel tempo, o nel calcolo del moto di un corpo celeste, 
+si deve determinare la dipendenza temporale delle sue coordinate. In questi casi, si può formulare un'equazione che consente di trovare la funzione incognita, chiamata equazione funzionale. 
+Qui si discutono le equazioni differenziali, che rappresentano una delle classi più importanti di equazioni funzionali, in cui la funzione incognita è accompagnata dalle sue derivate fino a un certo ordine.
