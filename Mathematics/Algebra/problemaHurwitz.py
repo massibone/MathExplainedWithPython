@@ -34,3 +34,7 @@ def hurwitz_criterion(coefficients):
 # Esempio di utilizzo
 coefficients = [1, -2, -3, 4]  # Coefficienti del polinomio: x^3 - 2x^2 - 3x + 4
 hurwitz_criterion(coefficients)
+
+```
+
+In questo codice, la funzione `hurwitz_criterion` prende i coefficienti di un polinomio come input e costruisce la matrice di Hurwitz corrispondente. Successivamente, calcola gli autovalori di questa matrice e verifica se tutti gli autovalori sono inferiori a zero (o non superiori o uguali a zero) per determinare la stabilità del polinomio secondo il criterio di Hurwitz.
