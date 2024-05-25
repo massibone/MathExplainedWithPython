@@ -15,3 +15,11 @@ def encode_message(message, n, k):
     
     Returns:
         str: La parola di codice generata con bit di parità.
+    """
+    # Inizializza la parola di codice con tutti 0
+    encoded_message = [0] * n
+    
+    # Copia i bit di dati nel messaggio codificato
+    for i in range(k):
+        encoded_message[2**i - 1] = int(message[i])
+    
