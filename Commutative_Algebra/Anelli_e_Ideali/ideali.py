@@ -21,3 +21,5 @@ for x in Z:
 print("Anello Quoziente Z/2Z:")
 for key, value in quotient_ring.items():
     print(f"Resto di {key} è {value}")
+
+
