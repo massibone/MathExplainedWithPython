@@ -7,4 +7,12 @@ se nella scatola "Modulo 5" hai i numeri 1 e 3, e nella scatola "Modulo 3" hai i
 3 * 2 = 1 (nel Modulo 5, 6 diventa 1)
 Quindi, il prodotto di questi due sottomoduli sarebbe una nuova scatola con gli elementi 0, 1 e 2, nel Modulo 5
 '''
-
+def modulo_multiplication(modulo1, modulo2):
+    result = set()
+    for num1 in modulo1:
+        for num2 in modulo2:
+            # Calcola il prodotto dei due numeri nei rispettivi moduli
+            product = (num1 * num2) % max(len(modulo1), len(modulo2))
+            result.add(product)
+    return result
+  
