@@ -16,3 +16,10 @@ def modulo_multiplication(modulo1, modulo2):
             result.add(product)
     return result
   
+# Esempio di sottomoduli
+modulo_5 = {0, 1, 2, 3, 4}
+modulo_3 = {0, 1, 2}
+
+# Calcola il prodotto dei due sottomoduli
+product_result = modulo_multiplication(modulo_5, modulo_3)
+print("Il prodotto dei due sottomoduli è:", product_result)
