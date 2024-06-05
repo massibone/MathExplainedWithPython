@@ -1,9 +1,9 @@
 '''
 Supponiamo di avere i seguenti tipi di mattoncini LEGO disponibili:
-
 Tipo A: Mattoncino rosso rettangolare
 Tipo B: Mattoncino blu rettangolare
 Tipo C: Mattoncino verde rettangolare
+
 # Definizione dei vettori che rappresentano i mattoncini LEGO
 v_A = (3, 0, 2)  # Vettore per i mattoncini di tipo A (rosso)
 v_B = (1, 2, 1)  # Vettore per i mattoncini di tipo B (blu)
