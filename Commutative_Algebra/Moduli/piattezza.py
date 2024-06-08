@@ -1,6 +1,7 @@
 '''
 sotto certe condizioni di piattezza, un anello locale deve necessariamente essere un campo. 
 '''
+
 # Importiamo SymPy
 import sympy as sp
 
