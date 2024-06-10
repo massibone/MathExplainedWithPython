@@ -1,5 +1,6 @@
 '''
-Immagina di avere tre scatole di mattoncini LEGO: A, B e C. Ogni scatola ha mattoncini speciali che possono essere collegati in modi specifici.
+Immagina di avere tre scatole di mattoncini LEGO: A, B e C. 
+Ogni scatola ha mattoncini speciali che possono essere collegati in modi specifici.
 
 Omomorfismo di anelli: Pensa a "f" e "g" come a due set di istruzioni su come collegare i mattoncini tra le scatole:
 "f" ti dice come passare i mattoncini dalla scatola A alla scatola B.
