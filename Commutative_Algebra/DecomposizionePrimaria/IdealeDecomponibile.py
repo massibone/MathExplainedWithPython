@@ -1,8 +1,13 @@
 '''
-Un ideale decomponibile è come una scatola di mattoncini che puoi dividere in più scatole più piccole, e ogni scatola più piccola è una "parte" importante della scatola originale. Ad esempio, se hai una scatola di mattoncini che contiene tutti i mattoncini rossi e blu, potresti essere in grado di dividerla in una scatola di soli mattoncini rossi e una di soli mattoncini blu.
+Un ideale decomponibile è come una scatola di mattoncini che puoi dividere in più scatole più piccole, 
+e ogni scatola più piccola è una "parte" importante della scatola originale. 
+Ad esempio, se hai una scatola di mattoncini che contiene tutti i mattoncini rossi e blu,
+potresti essere in grado di dividerla in una scatola di soli mattoncini rossi e una di soli mattoncini blu.
 
 Ideale Primo Minimale
-Un ideale primo minimale è una scatola molto speciale che non può essere divisa ulteriormente in scatole più piccole che seguono le regole degli ideali. È come un mattoncino fondamentale che non può essere scomposto in parti più piccole. Se hai una scatola che contiene mattoncini fondamentali, ogni scatola di questo tipo è un ideale primo minimale.
+Un ideale primo minimale è una scatola molto speciale che non può essere divisa ulteriormente in scatole più piccole 
+che seguono le regole degli ideali. È come un mattoncino fondamentale che non può essere scomposto in parti più piccole. 
+Se hai una scatola che contiene mattoncini fondamentali, ogni scatola di questo tipo è un ideale primo minimale.
 '''
 import sympy as sp
 
