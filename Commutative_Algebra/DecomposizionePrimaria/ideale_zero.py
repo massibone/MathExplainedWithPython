@@ -10,3 +10,21 @@ Un ideale primo è come una scatola di mattoncini che ha una proprietà molto sp
 
 Quando diciamo che l'ideale zero è decomponibile, significa che possiamo trovare diversi ideali primi tali che, messi insieme, coprono tutti i divisori dello zero.
 '''
+import sympy as sp
+
+# Definiamo l'anello dei polinomi in due variabili x e y
+x, y = sp.symbols('x y')
+R = sp.PolyRing([x, y], sp.ZZ)
+
+# Definiamo l'ideale zero
+ideal_zero = sp.Ideal(0, domain=R)
+
+# Troviamo i divisori dello zero
+zero_divisors = R.zero_divisors()
+
+# Troviamo gli ideali primi appartenenti all'ideale zero
+prime_ideals = ideal_zero.associated_primes()
+
+# Visualizziamo i divisori dello zero e gli ideali primi
+print("Divisori dello zero:", zero_divisors)
+print("Ideali primi appartenenti all'ideale zero:", prime_ideals)
