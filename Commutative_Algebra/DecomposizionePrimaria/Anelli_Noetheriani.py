@@ -28,4 +28,33 @@ p.
 Anelli Noetheriani
 Gli anelli noetheriani sono come scatole di mattoncini che soddisfano certe proprietà di "finitezza". In questi anelli, la definizione che abbiamo visto si verifica sempre.
 '''
+import sympy as sp
 
+# Definiamo l'anello dei polinomi in due variabili x e y
+x, y = sp.symbols('x y')
+R = sp.PolyRing([x, y], sp.ZZ)
+
+# Definiamo un ideale primo
+p = sp.Ideal(x, domain=R)
+
+# Troviamo i p-primari associati a p
+p_primary_ideals = [sp.Ideal(x**2, domain=R), sp.Ideal(x*y, domain=R)]
+
+# Calcoliamo l'intersezione di tutti gli ideali p-primari
+intersection_p_primary = p_primary_ideals[0]
+for ideal in p_primary_ideals[1:]:
+    intersection_p_primary = intersection_p_primary.intersect(ideal)
+
+# Calcoliamo Sp(0)
+S_p = [elem for elem in R.gens if not elem in p]
+S_p_0 = sp.Ideal(0, domain=R).localization(S_p).contraction(R)
+
+# Verifichiamo se l'intersezione degli ideali p-primari è uguale a Sp(0)
+is_equal = intersection_p_primary == S_p_0
+
+# Visualizziamo i risultati
+print("Ideale primo p:", p)
+print("Ideali p-primari:", p_primary_ideals)
+print("Intersezione degli ideali p-primari:", intersection_p_primary)
+print("Sp(0):", S_p_0)
+print("L'intersezione degli ideali p-primari è uguale a Sp(0):", is_equal)
