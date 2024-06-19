@@ -1,1 +1,7 @@
-
+Dipendenza Integrale in Algebra Commutativa
+In algebra commutativa, un elemento 𝑏 di un anello 
+B si dice integralmente dipendente da un sottoanello 
+A se soddisfa un'equazione polinomiale a coefficienti in 𝐴.
+Il concetto di dipendenza integrale può essere paragonato alla relazione tra numeri interi e numeri razionali. 
+Ogni numero razionale può essere scritto come una frazione di due numeri interi. 3/4 è un numero razionale che dipende dai numeri interi 3 e 4. 
+Tuttavia, non tutti i numeri razionali sono interi, ma ogni intero è un razionale (es. 3 può essere visto come 3/1)
