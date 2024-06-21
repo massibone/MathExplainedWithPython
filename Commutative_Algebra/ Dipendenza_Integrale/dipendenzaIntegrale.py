@@ -1,5 +1,4 @@
 
--dipendenzaIntegrale.py
 import sympy as sp
 
 # Definiamo i simboli per l'algebra commutativa
