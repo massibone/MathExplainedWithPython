@@ -1,17 +1,24 @@
 '''
-Un anello di Jacobson è un tipo speciale di anello in algebra commutativa. Un anello è come un insieme di numeri o oggetti (come i mattoncini LEGO) con alcune regole su come combinarli. L'anello di Jacobson ha delle proprietà speciali che lo rendono molto interessante e utile in matematica.
+Un anello di Jacobson è un tipo speciale di anello in algebra commutativa. 
+Un anello è come un insieme di numeri o oggetti (come i mattoncini LEGO) con alcune regole su come combinarli. 
+L'anello di Jacobson ha delle proprietà speciali che lo rendono molto interessante e utile in matematica.
 
 Tre Proprietà Equivalenti di un Anello di Jacobson
-Esistono tre proprietà importanti che, se soddisfatte, fanno sì che un anello sia un anello di Jacobson. Vediamo quali sono queste proprietà.
+Esistono tre proprietà importanti che, se soddisfatte, fanno sì che un anello sia un anello di Jacobson. 
 
 Proprietà 1: Gli Ideali Massimali Contengono Ogni Ideale Primo
-Pensa agli ideali come a dei sottoinsiemi speciali dei tuoi mattoncini LEGO. Un ideale primo è come un gruppo di mattoncini molto speciale che non può essere diviso ulteriormente. Un ideale massimale è il gruppo più grande di mattoncini che rispetta ancora le regole dell'anello. La prima proprietà dice che ogni gruppo speciale di mattoncini (ideale primo) è contenuto in uno di questi gruppi più grandi (ideale massimale).
+Pensa agli ideali come a dei sottoinsiemi speciali dei tuoi mattoncini LEGO. 
+Un ideale primo è come un gruppo di mattoncini molto speciale che non può essere diviso ulteriormente. 
+Un ideale massimale è il gruppo più grande di mattoncini che rispetta ancora le regole dell'anello. 
+La prima proprietà dice che ogni gruppo speciale di mattoncini (ideale primo) è contenuto in uno di questi gruppi più grandi (ideale massimale).
 
 Proprietà 2: Il Radicale di Jacobson di A Contiene Ogni Ideale Primo
-Il radicale di Jacobson è come un insieme speciale di mattoncini che rappresenta il cuore della tua scatola. La seconda proprietà dice che questo cuore contiene tutti i gruppi speciali di mattoncini (ideali primi).
+Il radicale di Jacobson è come un insieme speciale di mattoncini che rappresenta il cuore della tua scatola. 
+La seconda proprietà dice che questo cuore contiene tutti i gruppi speciali di mattoncini (ideali primi).
 
 Proprietà 3: Ogni Ideale Primo è l'Intersezione di Ideali Massimali
-La terza proprietà dice che puoi ottenere ogni gruppo speciale di mattoncini (ideale primo) intersecando diversi gruppi più grandi di mattoncini (ideali massimali). È come se tu potessi costruire qualsiasi cosa speciale combinando diversi gruppi grandi di mattoncini.
+La terza proprietà dice che puoi ottenere ogni gruppo speciale di mattoncini (ideale primo) intersecando diversi gruppi più grandi di mattoncini (ideali massimali). 
+È come se tu potessi costruire qualsiasi cosa speciale combinando diversi gruppi grandi di mattoncini.
 '''
 
 import sympy as sp
