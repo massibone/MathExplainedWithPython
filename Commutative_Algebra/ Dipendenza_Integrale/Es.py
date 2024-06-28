@@ -7,7 +7,12 @@ non ci sono mattoncini difettosi e ogni costruzione che fai è stabile e non si 
 Questa collezione speciale è chiamata dominio di integrità integralmente chiuso.
 
 Cos'è un Campo delle Frazioni?
-Ora, prendi questi mattoncini e pensa di poterli dividere in pezzi più piccoli, ma senza ottenere frazioni che non siano mattoncini interi. Questo è come creare un campo delle frazioni della tua collezione di mattoncini.
+Ora, prendi questi mattoncini e pensa di poterli dividere in pezzi più piccoli, 
+ma senza ottenere frazioni che non siano mattoncini interi. Questo è come creare un campo delle frazioni della tua collezione di mattoncini.
 
 Cos'è un'Estensione di Campo?
-Immagina di trovare un'altra collezione di mattoncini che include la tua collezione originale e aggiunge nuovi tipi di mattoncini. Questo è come avere un'estensione del campo, chiamata L.
+Immagina di trovare un'altra collezione di mattoncini 
+che include la tua collezione originale e 
+aggiunge nuovi tipi di mattoncini. 
+Questo è come avere un'estensione del campo, 
+chiamata L.
