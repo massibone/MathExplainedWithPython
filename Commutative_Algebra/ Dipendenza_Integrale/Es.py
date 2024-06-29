@@ -16,3 +16,9 @@ che include la tua collezione originale e
 aggiunge nuovi tipi di mattoncini. 
 Questo è come avere un'estensione del campo, 
 chiamata L.
+Gruppo di Galois
+Il gruppo di Galois è come un gruppo di maghi che possono fare trasformazioni magiche sulla tua nuova collezione di mattoncini (L) ma che lasciano invariata la tua collezione originale (K).
+
+Chiusura Integrale
+La chiusura integrale di una collezione di mattoncini è come trovare tutti i mattoncini possibili che possono essere creati combinando in modo speciale i mattoncini originali senza ottenere pezzi rotti.
+'''
