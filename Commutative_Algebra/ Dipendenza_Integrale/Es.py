@@ -22,3 +22,30 @@ Il gruppo di Galois è come un gruppo di maghi che possono fare trasformazioni m
 Chiusura Integrale
 La chiusura integrale di una collezione di mattoncini è come trovare tutti i mattoncini possibili che possono essere creati combinando in modo speciale i mattoncini originali senza ottenere pezzi rotti.
 '''
+import sympy as sp
+from sympy.abc import x
+
+# Definiamo il campo K come un campo di frazioni dei polinomi su Z
+K = sp.FractionField(sp.PolyRing(x, sp.QQ))
+
+# Definiamo un'estensione di campo L come una radice di un polinomio irriducibile su K
+L = K.extension(x**2 - 2, 'a')
+a = L.gens[0]
+
+# Definiamo il gruppo di Galois G di L su K
+G = sp.GaloisGroup(L, K)
+
+# Verifichiamo che sigma(B) = B per ogni sigma in G
+B = L.integral_closure()
+invariant_under_Galois = all(g(B) == B for g in G)
+
+# Verifichiamo che A = B^0
+A = B.normalization()
+equals_original = A == L.ring
+
+# Visualizziamo i risultati
+print("Campo delle frazioni K:", K)
+print("Estensione di campo L:", L)
+print("Chiusura integrale B:", B)
+print("Invarianza sotto il gruppo di Galois:", invariant_under_Galois)
+print("A è uguale alla chiusura integrale di B:", equals_original)
