@@ -20,7 +20,8 @@ Gruppo di Galois
 Il gruppo di Galois è come un gruppo di maghi che possono fare trasformazioni magiche sulla tua nuova collezione di mattoncini (L) ma che lasciano invariata la tua collezione originale (K).
 
 Chiusura Integrale
-La chiusura integrale di una collezione di mattoncini è come trovare tutti i mattoncini possibili che possono essere creati combinando in modo speciale i mattoncini originali senza ottenere pezzi rotti.
+La chiusura integrale di una collezione di mattoncini è come trovare 
+tutti i mattoncini possibili che possono essere creati combinando in modo speciale i mattoncini originali senza ottenere pezzi rotti.
 '''
 import sympy as sp
 from sympy.abc import x
