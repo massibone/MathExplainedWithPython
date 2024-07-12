@@ -14,3 +14,11 @@ class AbelianGroup:
     new_elements = [self.operation(a, b) for a in self.elements for b in other.elements]
     return AbelianGroup(new_elements, self.operation)
     
+ 
+  def __mul__(self, other):
+    if not isinstance(other, AbelianGroup):
+      raise TypeError("Can only multiply AbelianGroup objects")
+    if self.elements != other.elements:
+      raise ValueError("Groups must have the same elements")
+    new_elements = [self.operation(a, b) for a in self.elements for b in other.elements]
+    return AbelianGroup(new_elements, self.operation)
