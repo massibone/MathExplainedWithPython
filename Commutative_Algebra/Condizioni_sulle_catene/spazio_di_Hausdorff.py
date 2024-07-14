@@ -42,6 +42,19 @@ functions = [create_function(np.random.rand(3)) for _ in range(5)]
 n = 5
 closed_sets = create_decreasing_closed_sets(n, size)
 
+X.show()
+
+# Verifica degli ideali an
+def check_ideal(f, closed_set):
+    return all(f(x, y) == 0 for (x, y, _, _) in closed_set)
+
+ideals = []
+for i in range(n):
+    ideals.append([f for f in functions if check_ideal(f, closed_sets[:i+1])])
+
+# Stampa degli ideali
+for i, ideal in enumerate(ideals):
+    print(f"Ideale a_{i+1}: {[f.__name__ for f in ideal]}")
 # Plot dei chiusi
 for i, closed_set in enumerate(closed_sets):
     X.plot_closed_set([closed_set], color=plt.cm.viridis(i / n))
