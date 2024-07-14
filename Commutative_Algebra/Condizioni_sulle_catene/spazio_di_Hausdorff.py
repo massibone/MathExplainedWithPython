@@ -31,3 +31,18 @@ def create_decreasing_closed_sets(n, size):
         w = h = size - 2 * x
         closed_sets.append((x, y, w, h))
     return closed_sets
+    # Generazione dello spazio e delle funzioni
+size = 10
+X = CompactHausdorffSpace(size)
+
+# Generazione di funzioni continue
+functions = [create_function(np.random.rand(3)) for _ in range(5)]
+
+# Generazione dei chiusi decrescenti
+n = 5
+closed_sets = create_decreasing_closed_sets(n, size)
+
+# Plot dei chiusi
+for i, closed_set in enumerate(closed_sets):
+    X.plot_closed_set([closed_set], color=plt.cm.viridis(i / n))
+
