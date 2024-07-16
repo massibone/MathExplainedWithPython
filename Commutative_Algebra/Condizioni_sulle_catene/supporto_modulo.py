@@ -1,4 +1,4 @@
-''
+'''
 Concetto di Supp(M)
 In algebra commutativa, se 𝑀 è un modulo su un anello 
 𝐴, il supporto di 𝑀, denotato Supp(M), è l'insieme degli ideali primi 𝑝
@@ -111,3 +111,36 @@ Supp
 )
 Supp(M) eredita la condizione della catena ascendente, rendendolo noetheriano.
 '''
+class Ideal:
+    def __init__(self, name):
+        self.name = name
+
+class Module:
+    def __init__(self, ideals):
+        self.ideals = ideals
+    
+    def support(self):
+        # Simula il calcolo del supporto del modulo
+        return {ideal for ideal in self.ideals if ideal.name != "0"}
+
+class Spec:
+    def __init__(self, ideals):
+        self.ideals = ideals
+    
+    def is_noetherian(self, subspace):
+        # Verifica se il sottospazio è noetheriano (semplificato)
+        return True
+
+# Creazione di un modulo noetheriano
+ideals = [Ideal("p1"), Ideal("p2"), Ideal("p3"), Ideal("0")]
+M = Module(ideals)
+
+# Calcolo del supporto di M
+support_M = M.support()
+
+# Creazione di Spec(A)
+spec_A = Spec(ideals)
+
+# Verifica se il supporto è un sottospazio noetheriano chiuso
+is_noetherian_closed_subspace = spec_A.is_noetherian(support_M)
+print("Il supporto è un sottospazio noetheriano chiuso?", is_noetherian_closed_subspace)
