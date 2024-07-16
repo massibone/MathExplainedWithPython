@@ -1,0 +1,4 @@
+Un anello A si dice noetheriano se soddisfa una delle tre seguenti condizioni,tra loro equivalenti:
+1)Ogni insieme non vuoto di ideali in A possiede un elemento massimale
+2)Ogni catena ascendente di ideali in A è stazionaria.
+3)Ogni ideale di A è finitamente generato.
