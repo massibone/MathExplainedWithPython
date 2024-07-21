@@ -1,4 +1,5 @@
-Gli anelli artiniani sono un tipo particolare di anelli in algebra commutativa che possiedono diverse proprietà interessanti.
+Gli anelli artiniani sono un tipo particolare di anelli in algebra commutativa 
+che possiedono diverse proprietà interessanti.
 Un anello artiniano è un anello in cui ogni catena discendente di ideali si stabilizza dopo un numero finito di passi. Questo significa che se stai costruendo una sequenza di ideali (insiemi speciali all'interno dell'anello), raggiungerai un punto in cui non puoi più aggiungere altri ideali alla tua sequenza.
 
 Caratteristiche degli Anelli Artiniani:
