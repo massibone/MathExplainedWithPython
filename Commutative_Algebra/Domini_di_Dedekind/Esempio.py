@@ -22,3 +22,13 @@ a = [0, 0, 0]
 t, mod = crt(n, a)
 
 print(f"Tutte le luci lampeggeranno insieme ogni {t} secondi.")
+'''
+Il risultato sarà il minimo tempo 𝑡 in cui tutte le luci lampeggiano insieme. In questo caso, il risultato è 60 secondi, poiché 60 è il minimo comune multiplo di 3, 4 e 5.
+
+Utilizzo nella Realtà
+In un contesto più reale, il CRT può essere utilizzato in:
+
+Reti di Sensori: Per sincronizzare i tempi di trasmissione dei dati in una rete di sensori che operano a intervalli diversi.
+Sistemi Distribuiti: Per pianificare operazioni periodiche in un sistema distribuito dove diverse macchine o processi operano con periodi differenti.
+Codici di Temporizzazione: Per creare codici temporali che si ripetono a intervalli regolari e prevedibili, utilizzabili per sincronizzazione in comunicazioni.
+''''
