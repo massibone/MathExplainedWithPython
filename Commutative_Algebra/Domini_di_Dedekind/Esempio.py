@@ -1,5 +1,4 @@
-esempio.py
-''''
+'''
 Problema delle Luci Lampeggianti
 Immaginiamo che ci siano tre luci che lampeggiano a intervalli diversi. La prima luce lampeggia ogni 3 secondi, la seconda ogni 4 secondi e la terza ogni 5 secondi. Vogliamo sapere dopo quanti secondi tutte le luci lampeggeranno insieme per la prima volta.
 
