@@ -10,3 +10,17 @@ Step 2: Calcolare il Tempo di Sincronizzazione
 Utilizzeremo il Teorema Cinese dei Resti per calcolare il tempo minimo 
 𝑡 dopo il quale tutte le operazioni saranno sincronizzate.
 '''
+from sympy.ntheory.modular import crt
+
+# Definizione dei periodi
+windows_period = 15
+linux_period = 20
+
+# Definizione dei moduli e dei residui
+n = [windows_period, linux_period]
+a = [0, 0]
+
+# Utilizzo del Teorema Cinese dei Resti
+t, _ = crt(n, a)
+
+print(f"Le operazioni saranno sincronizzate ogni {t} secondi.")
