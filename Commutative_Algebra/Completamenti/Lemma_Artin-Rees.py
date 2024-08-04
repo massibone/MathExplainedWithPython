@@ -23,3 +23,14 @@ def intersection(I, n, M, N):
     # Intersezione con N
     intersection = [n for n in N if n in InM]
     return intersection
+def artin_rees_lemma(I, M, N, k):
+    for n in range(k, k + 5):  # Controlliamo alcuni valori di n >= k
+        left_side = intersection(I, n, M, N)
+        right_side = [(I**(n - k) * m) for m in intersection(I, k, M, N)]
+        print(f"n = {n}, Left: {left_side}, Right: {right_side}")
+
+# Valore di k per cui il lemma si applica
+k = 1
+
+# Applicazione del lemma di Artin-Rees
+artin_rees_lemma(I, M, N, k)
