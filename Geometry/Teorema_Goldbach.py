@@ -1,7 +1,14 @@
 '''
- Il Teorema di Goldbach afferma che ogni numero pari maggiore di 2 può essere espresso come somma di due numeri primi.
+ Il Teorema di Goldbach afferma che ogni numero pari 
+ maggiore di 2 può essere espresso come somma di due 
+ numeri primi.
 
-Ad esempio, il numero 8 può essere espresso come la somma dei numeri primi 3 e 5, poiché 3 + 5 = 8. Allo stesso modo, il numero 20 può essere espresso come la somma dei numeri primi 7 e 13, poiché 7 + 13 = 20.
+Ad esempio, il numero 8 può essere espresso 
+come la somma dei numeri primi 3 e 5, 
+poiché 3 + 5 = 8. Allo stesso modo, 
+il numero 20 può essere espresso come 
+la somma dei numeri primi 7 e 13, 
+poiché 7 + 13 = 20.
 '''
 
 def is_prime(num):
