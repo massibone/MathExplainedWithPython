@@ -16,3 +16,11 @@ def is_p_adic_convergent(sequence, p):
         if p_adic_distance(sequence[n], sequence[n + 1], p) < n + 1:
             return False
     return True
+# Esempio di sequenza negli interi
+sequence = [1, 1 + 3, 1 + 3 + 3**2, 1 + 3 + 3**2 + 3**3]
+
+# Numero primo p
+p = 3
+
+# Verifica della convergenza nella topologia p-adica
+print(f"La sequenza converge nella topologia {p}-adica?", is_p_adic_convergent(sequence, p))
