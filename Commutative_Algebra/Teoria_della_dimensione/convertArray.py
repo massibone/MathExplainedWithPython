@@ -12,3 +12,12 @@ immagine = io.imread('immagine.jpg')
 
 # Conversione in scala di grigi
 immagine = immagine.astype('float32') / 255.0
+# Trasformata di Hilbert 2D
+trasformata_hilbert = hfft(hfft(immagine, axis=0), axis=1)
+
+# Ampiezza e fase della trasformata
+ampiezza = np.abs(trasformata_hilbert)
+fase = np.angle(trasformata_hilbert)
+
+# Caratteristiche di Hilbert
+caratteristiche_hilbert = np.stack((ampiezza, fase), axis=-1)
