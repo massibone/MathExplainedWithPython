@@ -1,5 +1,6 @@
 '''
-La "quadratura del rettangolo" si riferisce al problema classico di determinare un quadrato con la stessa area di un dato rettangolo. In altre parole, il problema consiste nel trovare un quadrato che ha lo stesso valore dell'area di un rettangolo dato. Questo è un problema di costruzione geometrica che può essere risolto utilizzando strumenti matematici.
+La "quadratura del 
+rettangolo" si riferisce al problema classico di determinare un quadrato con la stessa area di un dato rettangolo. In altre parole, il problema consiste nel trovare un quadrato che ha lo stesso valore dell'area di un rettangolo dato. Questo è un problema di costruzione geometrica che può essere risolto utilizzando strumenti matematici.
 
 Per trovare il lato del quadrato equivalente al rettangolo, puoi seguire questi passaggi:
 
