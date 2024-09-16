@@ -1,1 +1,7 @@
 La decomposizione lineare, o decomposizione matriciale, è una tecnica fondamentale in algebra lineare che consiste nel scomporre una matrice in un prodotto di matrici più semplici. Questo processo è utile per risolvere sistemi di equazioni lineari, invertire matrici e calcolare determinanti.
+
+Ecco alcune delle decomposizioni più comuni:
+
+Decomposizione LU: Una matrice (A) viene scomposta in una matrice triangolare inferiore (L) e una matrice triangolare superiore (U). Questo metodo è spesso utilizzato per risolvere sistemi di equazioni lineari1.
+Decomposizione QR: Una matrice (A) viene scomposta in una matrice ortogonale (Q) e una matrice triangolare superiore (R). Questa decomposizione è utile per problemi di minimizzazione e per trovare soluzioni approssimate1.
+Decomposizione di Cholesky: Applicabile a matrici quadrate, simmetriche e definite positive, questa decomposizione scompone una matrice (A) in un prodotto di una matrice triangolare inferiore (L) e la sua trasposta (L^T)1.
