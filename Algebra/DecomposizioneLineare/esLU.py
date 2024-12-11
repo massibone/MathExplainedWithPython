@@ -20,3 +20,22 @@ b è il vettore dei termini noti (es. i carichi esterni),
 𝑥
 x è il vettore delle incognite (es. le forze interne che vogliamo trovare).
 '''
+import numpy as np
+import scipy.linalg
+
+# Definiamo la matrice dei coefficienti A e il vettore dei termini noti b
+A = np.array([[3, 1], [1, 2]])
+b = np.array([9, 8])
+
+# Decomposizione LU
+P, L, U = scipy.linalg.lu(A)
+
+# Risolviamo il sistema tramite la decomposizione LU
+# Risolviamo prima Ly = b
+y = np.linalg.solve(L, np.dot(P, b))
+
+# Poi risolviamo Ux = y
+x = np.linalg.solve(U, y)
+
+print("Soluzione del sistema x:")
+print(x)
