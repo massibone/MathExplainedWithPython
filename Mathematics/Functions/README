@@ -1,0 +1,3 @@
+Closures o "funzioni chiuse". 
+Una funzione chiusa è una funzione che può accedere e modificare le variabili esterne alla sua definizione.
+Esempi di funzioni chiuse come "Generatore di numeri casuali" o "Contatore di visite"
