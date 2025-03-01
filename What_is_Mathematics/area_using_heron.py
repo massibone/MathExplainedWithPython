@@ -8,6 +8,7 @@ def calculate_area_using_heron(a, b, c):
     area = np.sqrt(s * (s - a) * (s - b) * (s - c))
     return area
 
+
 # Lati del triangolo
 a = 8.0
 b = 15.0
