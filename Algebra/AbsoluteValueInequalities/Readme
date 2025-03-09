@@ -3,3 +3,4 @@ For example, in linear_ineq_assolute.py the expression |2x-3|>x+6 is an absolute
 S= x<-1 U x>9 And the example linear_ineq_assolute2.py |x^2-5|< 4 has solution -3<x<-1 U 1<x<3
 
 pip install sympy
+
