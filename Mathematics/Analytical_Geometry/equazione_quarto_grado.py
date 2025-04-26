@@ -10,7 +10,8 @@ def equazione_quarto_grado(a, b, c, d, e):
     e (float): Termine noto.
 
   Restituisce:
-    list: Lista contenente le soluzioni dell'equazione.
+    list: Lista contenente le soluzioni 
+    dell'equazione.
   """
 
   # Calcolo del discriminante di Eulero
