@@ -1,4 +1,5 @@
-# Definizione di un insieme di numeri interi che costituiscono l'anello
+# Definizione di un insieme di numeri 
+# interi che costituiscono l'anello
 numeri_interi = {0, 1, 2, 3, 4, 5}
 
 # Definizione degli ideali massimali (insieme di numeri primi)
