@@ -7,7 +7,6 @@ a) E = {1, 2}
 b) E = {2}
 c) E = ∅ (insieme vuoto)
 d) E = {2
-
 '''
 
 L'equazione x^2 - 3x + 2 = 0 può essere fattorizzata in (x - 1)(x - 2) = 0. Quindi, le soluzioni di questa equazione sono x = 1 e x = 2.
