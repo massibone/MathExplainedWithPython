@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 # Definisci i punti iniziali e finali della transizione
 x_start = 0
 x_end = 10
