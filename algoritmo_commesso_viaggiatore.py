@@ -17,6 +17,7 @@ def nearest_neighbour(cities):
     return tour
 
 # Esempio di utilizzo
+
 cities_coordinates = np.array([
     [0, 0],  # Città 0
     [1, 2],  # Città 1
