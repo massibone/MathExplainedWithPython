@@ -1,6 +1,7 @@
 
 '''
-Quindi, la derivata della funzione radice quadra [(x+1)/(x-1)] è:
+Quindi, la derivata della funzione radice quadra
+[(x+1)/(x-1)] è:
 
 f'(x) = 1/(2x-2)
 '''
