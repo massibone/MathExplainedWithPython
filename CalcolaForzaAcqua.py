@@ -16,6 +16,7 @@ altezza_acqua = 0.5  # Altezza dell'acqua nel recipiente
 densita_acqua = 1000  # Densità dell'acqua in kg/m^3
 accelerazione_gravitazionale = 9.8  # Accelerazione dovuta alla gravità in m/s^2
 
+
 # Calcola la forza
 forza_esercitata = calcola_forza(lato_base_recipiente, altezza_acqua, densita_acqua, accelerazione_gravitazionale)
 
