@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # Definizione della formula della posizione
 def posizione(t, g):
     return 0.5 * g * t**2
