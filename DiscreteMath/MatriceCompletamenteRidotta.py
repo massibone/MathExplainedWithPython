@@ -11,6 +11,7 @@ Per la matrice A data:
  [ 0  0  0  0]]
 Possiamo vedere che:
 
+
 La prima colonna contiene un elemento pivot (1) e contiene solo zeri al di fuori del pivot.
 La terza colonna contiene un elemento pivot (-1) e contiene solo zeri al di fuori del pivot.
 La seconda colonna contiene un elemento pivot (2) e contiene solo zeri al di fuori del pivot.
