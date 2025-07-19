@@ -2,6 +2,7 @@ import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
+
 # Define the Lyapunov system of differential equations
 def lyapunov_system(z, t, epsilon):
     x, y = z
