@@ -1,8 +1,7 @@
 '''
-
- Il Teorema di Goldbach afferma che ogni numero pari 
- maggiore di 2 può essere espresso come somma di due 
- numeri primi.
+Il Teorema di Goldbach afferma che ogni numero pari 
+maggiore di 2 può essere espresso come somma di due 
+numeri primi.
 
 Ad esempio, il numero 8 può essere espresso 
 come la somma dei numeri primi 3 e 5, 
