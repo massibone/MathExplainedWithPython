@@ -1,6 +1,0 @@
-Triangular Prism
-
-
-Python function that calculates the volume of a triangular prism given side lengths of the base triangle and the height of the prism.
-import math
-
