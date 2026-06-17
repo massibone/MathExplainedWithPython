@@ -1,0 +1,6 @@
+A trapezoidal prism is a 3D figure made up of two trapezoids that is joined by four rectangles
+
+
+# Volume of Trapezoidal Prism: 1/2 (h)(a+b)
+volume = (1/2) * (h) * (a+b)   
+surface_area= l*(a+b+c+d) + ((h)*(a+b))

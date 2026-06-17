@@ -1,0 +1,9 @@
+trapezoidal_prism.py
+
+A trapezoidal prism is a 3D figure which has trapezoid cross-sections in one direction and rectangular cross-sections i
+n the other direction which means the prism has two congruent trapezoids that are connected to each other with four rectangles.
+These congruent trapezoids are on the top and bottom of the prism which are called bases. 
+The four rectangles are called the lateral faces of the trapezoid prism. 
+A trapezoidal prism has six faces, eight vertices, and 12 edges. 
+To construct a trapezoidal prism, we need to draw a trapezoid first that has 
+two parallel sides and a height i.e. distance between the sides.
