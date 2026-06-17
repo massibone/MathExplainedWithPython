@@ -1,0 +1,5 @@
+The truncated square pyramid is a special case of a pyramidal frustum for a square pyramid.
+Let the base and top side lengths of the truncated pyramid be a and b, and let the height be h. 
+Then the volume of the solid is
+
+ V=1/3(a^2+ab+b^2)h. 
