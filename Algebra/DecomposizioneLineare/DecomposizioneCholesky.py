@@ -8,3 +8,4 @@ print("Matrice triangolare inferiore L:")
 print(L)
 print("Trasposta di L (L^T):")
 print(L.T)
+
