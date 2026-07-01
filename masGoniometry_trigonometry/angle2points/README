@@ -1,0 +1,1 @@
+Per calcolare l'angolo tra due punti in Python, possiamo utilizzare la funzione arcotangente (arctan2) del modulo math.
