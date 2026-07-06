@@ -1,0 +1,5 @@
+In this code we use the Jacobi iterative method in Python to solve a system of linear equations:
+4x - y = 5
+-x + 4y - z = 0
+-y + 4z = 5
+

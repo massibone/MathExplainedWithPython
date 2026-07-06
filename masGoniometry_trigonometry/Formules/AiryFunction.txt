@@ -1,0 +1,5 @@
+The Airy function finds its utility in many areas of physics, 
+such as the study of electromagnetic waves, heat transfer, 
+fluid dynamics, and quantum mechanics. One real-life application 
+of the Airy function is in the analysis of diffraction patterns.
+

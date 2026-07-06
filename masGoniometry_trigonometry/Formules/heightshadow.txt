@@ -1,0 +1,4 @@
+goniometric elementary equation
+
+ code to calculate the height of a building by 
+ measuring the length of its shadow using a trigonometric equation

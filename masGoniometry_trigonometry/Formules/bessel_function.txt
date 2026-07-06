@@ -1,0 +1,17 @@
+Bessel functions, named after the mathematician Friedrich Bessel, are a family of mathematical functions that arise in a wide range of physical problems involving wave propagation, diffraction, and interference. These functions are defined in terms of their solutions to Bessel's differential equation:
+
+x^2y'' + xy' + (x^2 - n^2)y = 0,
+
+where n is a constant parameter.
+
+The basic form of Bessel functions of the first kind, denoted by Jn(x), can be expressed as a power series:
+
+Jn(x) = (x/2)^n ∑(k=0 to infinity) (-1)^k (x/2)^(2k + n) / k! (k+n)!,
+
+where n, x are real numbers and n is usually an integer. These functions have some interesting properties, such as oscillating behavior for large x, and they are normalized such that Jn(x) vanishes when x is zero.
+
+Bessel functions have many applications in physics and engineering, such as in the analysis of electromagnetic waves in cylindrical coordinate systems, in the theory of heat transfer, and in the study of fluid mechanics.
+
+Here, `scipy.special.jn(n, x)` calculates the n-th order Bessel function of the first kind at `x`.
+
+Similarly, you can also calculate the Bessel function of the second kind (`scipy.special.yn(n, x)`) and the modified Bessel functions (`scipy.special.iv(n, x)` and `scipy.special.kv(n, x)`).

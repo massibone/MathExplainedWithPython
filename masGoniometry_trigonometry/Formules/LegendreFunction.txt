@@ -1,0 +1,5 @@
+The Legendre function is a mathematical function that has several real-life applications, such as:
+
+-Calculation of coefficients in quantum mechanics
+-In the field of geodesy to determine the shape of the Earth
+-Used to analyse the vibrations in a drumhead
