@@ -1,0 +1,2 @@
+calcolo dell'arco tangente
+Ho usato per esempio angolo di 45 gradi in radianti e calcolato l'arco tangente di quest'ultimo utilizzando la funzione "math.atan(x)".

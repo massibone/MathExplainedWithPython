@@ -1,0 +1,5 @@
+esempio di codice Python che utilizza la funzione "math.degrees(x)" per convertire un insieme di valori in radianti in gradi.
+Abbiamo utilizzato NumPy per generare un array di 100 valori equidistanti nell'intervallo di 
+-π/2 a +π/2 in radianti. 
+Abbiamo poi calcolato l'equivalente in gradi di ogni valore in questo array utilizzando la funzione 
+"math.degrees(x)" in un ciclo for e abbiamo salvato i risultati in un altro array chiamato "x_gradi".
