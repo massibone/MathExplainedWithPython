@@ -1,0 +1,16 @@
+Per convertire le coordinate cartesiane di un punto (x,y) nelle coordinate polari (r,θ) si utilizzano le seguenti formule:
+
+r = √(x² + y²)
+
+θ = arctan(y/x)
+
+dove arctan rappresenta l'arco tangente.
+
+Ad esempio, se abbiamo il punto P(3,4), possiamo calcolare le sue coordinate polari come segue:
+
+r = √(3² + 4²) = 5
+
+θ = arctan(4/3) = 0.93 rad ≈ 53.13°
+
+Quindi le coordinate polari del punto P sono (5, 53.13°).
+
