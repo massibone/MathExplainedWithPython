@@ -1,0 +1,25 @@
+The sinc function in Python is a mathematical function that returns 
+the value of sin(x)/x.
+
+Suppose you have a dataset consisting of frequency values in Hertz 
+and corresponding magnitudes. You want to normalize the magnitudes, 
+taking into account the frequency response of your measurement system.
+
+You could apply the sinc function to each frequency value to get a 
+correction factor, then multiply each magnitude by that factor to normalize 
+the data.
+
+For example, if you have a frequency value of 10 Hertz, 
+you would calculate the correction factor as:
+
+
+correction_factor = sinc(10)
+
+If the result of the sinc function is 0, you would set the correction factor 
+to 1 to avoid dividing by 0.
+
+You would then multiply the magnitude at 10 Hertz by the correction factor 
+to get the normalized magnitude.
+
+Repeat this process for all frequency values in your dataset 
+to fully normalize the data.
