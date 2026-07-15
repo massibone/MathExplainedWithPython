@@ -1,0 +1,10 @@
+Thale's theorem states that if a triangle is inscribed in a circle 
+where one side of the triangle is a diameter of the circle, 
+then the angle opposite to that side is a right angle.
+
+we first define the coordinates of the triangle vertices, 
+and then calculate the distances between them using the Pythagorean theorem. 
+We then check if the distance AB is equal to twice the distance BC and AC, 
+which would indicate that AB is a diameter of the circle passing through 
+A, B, and C. If this condition is true, we print that Thale's theorem is true,
+otherwise we print that it is false.
