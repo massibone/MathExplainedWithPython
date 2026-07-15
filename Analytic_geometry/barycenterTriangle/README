@@ -1,0 +1,5 @@
+In geometry the centroid of the triangle is defined as the meeting point of all the three medians of a triangle.
+Let us consider (x1, y1), (x2, y2) and (x3, y3) as the three coordinates of the triangle, then the coordinates of centroid are  
+
+([x1+x2+x3]/3, [y1+y2+y3]/3).
+
