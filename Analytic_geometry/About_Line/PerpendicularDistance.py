@@ -1,5 +1,5 @@
 import math
- 
+
 # Function to find distance
 def shortest_distance(x1, y1, a, b, c):
       
