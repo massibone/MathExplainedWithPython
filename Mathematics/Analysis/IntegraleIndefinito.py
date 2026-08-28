@@ -9,6 +9,7 @@ Per fare ciò, dobbiamo prima trovare il prezzo di equilibrio risolvendo l'equaz
 '''
 from sympy import symbols, integrate, solve
 
+
 # Definiamo le variabili simboliche
 P = symbols('P')
 
