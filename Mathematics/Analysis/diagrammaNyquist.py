@@ -10,6 +10,7 @@ from scipy import signal
 def transfer_function(s, K):
     return signal.TransferFunction([K], [1, 6, 5, 0])
 
+
 # Valori di K
 K_values = [10, 100]
 
