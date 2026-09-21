@@ -1,0 +1,18 @@
+“Homographic Relation” or “homography” between two real variables {x, y} is a one-to-one
+(invertible) function y = f (x) involving algebraic operations only between the variables.
+
+
+1 Homographic Relation 2
+{x, y}. The one-to-one and the algebraic requirements imply that the relation has the form.
+y =
+ax + b
+cx + d
+, with ad − bc , 0 ⇔ cxy − ax + dy − b = 0 , (1)
+with an inverse function of the same kind
+x =
+dy − b
+−cy + a
+. (2)
+The graph of the function is a rectangular hyperbola. This is the only kind
+of quadratic curve that represents an invertible real function of the “extended real line”
+to itself
