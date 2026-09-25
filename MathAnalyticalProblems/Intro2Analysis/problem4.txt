@@ -1,0 +1,5 @@
+trovare il limite dell'angolo interno di un poligono regolare a n lati quando n tende a infinito
+
+Quando il numero di lati \(n\) di un poligono regolare aumenta all'infinito, il poligono si avvicina sempre di più a un cerchio. Gli angoli interni di un poligono regolare sono dati dalla formula \(\theta = \frac{{(n-2) \cdot 180^\circ}}{n}\), dove \(n\) è il numero di lati. 
+
+Quando \(n\) tende all'infinito, l'angolo \(\theta\) si avvicina all'angolo di un cerchio \(360^\circ\), poiché un cerchio ha un totale di \(360^\circ\) di angolo. Quindi, il limite dell'angolo interno di un poligono regolare a \(n\) lati quando \(n\) tende all'infinito è \(360^\circ\). In radianti, questo angolo corrisponde a \(2\pi\) radianti.
