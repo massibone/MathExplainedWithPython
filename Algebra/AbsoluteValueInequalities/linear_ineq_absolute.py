@@ -16,3 +16,4 @@ sistem1=(solve([eq1,eq2]))
 sistem2=(solve([eq3,eq4]))
 
 print(sistem1,sistem2)
+
